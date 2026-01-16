@@ -10,4 +10,4 @@ Python version: 3.13.0 | packaged by conda-forge | (main, Nov 27 2024, 19:03:49)
 NumPy version: 2.1.3\
 Matplotlib version: 3.10.0\
 Scipy version: 1.15.3\
-HyperSpy version: 2.3.0\
+HyperSpy version: 2.3.0
