@@ -1,7 +1,7 @@
 # 4D-STEM Analysis Pipeline: Si/SiGe Heterostructure Characterization
 
 This project implements an automated analytical pipeline for 4D-STEM (Four-Dimensional Scanning Transmission Electron Microscopy) datasets. The primary focus is on characterizing the interface of a Si/SiGe heterostructure through virtual imaging and diffraction statistical analysis.\
-(p.s.) I store the Si-SiGe file in download folder in my computer. Since the file is too big, I can not put it on the github\
+(p.s.) I wrote my homework under the assignment setup. Besides, I store the Si-SiGe file in download folder in my computer. Since the file is too big, I can not put it on the github. 
 
 ## Task 1: Distinguish Navigation vs. Signal Axes
 In this work, we generate the Diffraction Pattern (DP) and identify the **Navigation Axes** as (77, 17) and the **Signal Axes** as (480, 448).
