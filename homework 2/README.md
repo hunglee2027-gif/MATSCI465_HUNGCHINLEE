@@ -1,6 +1,7 @@
 # 4D-STEM Analysis Pipeline: Si/SiGe Heterostructure Characterization
 
-This project implements an automated analytical pipeline for 4D-STEM (Four-Dimensional Scanning Transmission Electron Microscopy) datasets. The primary focus is on characterizing the interface of a Si/SiGe heterostructure through virtual imaging and diffraction statistical analysis.
+This project implements an automated analytical pipeline for 4D-STEM (Four-Dimensional Scanning Transmission Electron Microscopy) datasets. The primary focus is on characterizing the interface of a Si/SiGe heterostructure through virtual imaging and diffraction statistical analysis.\
+(p.s.) I store the Si-SiGe file in download folder in my computer. Since the file is too big, I can not put it on the github\
 
 ## Task 1: Distinguish Navigation vs. Signal Axes
 In this work, we generate the Diffraction Pattern (DP) and identify the **Navigation Axes** as (77, 17) and the **Signal Axes** as (480, 448).
@@ -17,7 +18,7 @@ Furthermore, we plot a line profile starting from the CoM to examine surrounding
 ## Task 3: Build the Analysis Pipeline
 In this task, we define masks for **Bright Field (BF)** and **Annular Dark Field (ADF)** detectors:
 * **Bright Field (BF)**: Positioned at the center of the diffraction pattern (0-20 pixel radius) to capture the transmitted beam. It highlights diffraction contrast and crystal defects, showing the structural layout of the sample.
-* **Annular Dark Field (ADF)**: Positioned in an annular region (50-150 pixels) to collect high-angle incoherent scattered electrons. The resulting virtual ADF image indicates the chemical layout of the sample.
+* **Annular Dark Field (ADF)**: Positioned in an annular region (60-150 pixels) to collect high-angle incoherent scattered electrons. The resulting virtual ADF image indicates the chemical layout of the sample.
 
 Apart from virtual images, the pipeline also generates three diagnostic maps to ensure data quality and reveal hidden physical properties:
 
